@@ -21,5 +21,6 @@
         "default_icon": "assets/icon.png"
     },
     "permissions": [
-    ]
+    ],
+    "web_accessible_resources": ["assets/pivotal.png"]
 }
