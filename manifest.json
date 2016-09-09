@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+
+    "name": "Better Trello",
+    "description": "Better Trello",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": [
+                "http://trello.com/b/*/*",
+                "https://trello.com/b/*/*"
+            ],
+            "js": [
+                "src/content_script.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_name": "Better Trello",
+        "default_icon": "assets/icon.png"
+    },
+    "permissions": [
+    ]
+}
