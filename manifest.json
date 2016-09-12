@@ -11,6 +11,9 @@
                 "http://trello.com/*/*",
                 "https://trello.com/*/*"
             ],
+            "css": [
+                "css/style.css"
+            ],
             "js": [
                 "src/content_script.js"
             ]

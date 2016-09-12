@@ -1,0 +1,5 @@
+span.card-short-id.hide {
+    display: inline;
+    color: grey;
+    margin-right: 5px;
+}
